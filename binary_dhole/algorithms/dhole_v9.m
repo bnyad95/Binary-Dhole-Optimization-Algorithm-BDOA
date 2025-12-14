@@ -16,16 +16,6 @@ Best_fitness = inf;
 best_position = zeros(1,dim);
 fitness_f = zeros(1,N);
 
-% Initialize the population/solutions
-% for i=1:N
-%     for j=1:dim % For dimension
-%         if rand<=0.5
-%             Sol(i,j)=0;
-%         else
-%             Sol(i,j)=1;
-%         end
-%     end
-% end
 
 for i=1:N
    fitness_f(i) =  fobj(feat,label,(X(i,:) > thres),HO); %Calculate the fitness value of the function
