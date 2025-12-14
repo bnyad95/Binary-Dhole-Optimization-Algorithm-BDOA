@@ -3,7 +3,8 @@ This research introduces the Binary Dhole Optimization Algorithm (BDOA), a novel
 Keywords: metaheuristic, bell-shaped transfer functions, Dhole Optimization Algorithm (DOA), feature selection, binary optimization.
 
 
-<img width="1052" height="753" alt="image" src="https://github.com/user-attachments/assets/743fffe7-2d57-4004-985c-95a02181a9ed" />
+<img width="3336" height="2386" alt="flowchart3" src="https://github.com/user-attachments/assets/cb10450d-2043-470b-9ce2-673f94d04f26" />
+
 
                 DOA Algorithm
 
