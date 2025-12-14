@@ -1,5 +1,5 @@
 
-function [Best_fitness,sFeat,Sf,Nf,cuve_f]  =dhole_v10(feat,label,N,T,alpha,HO)
+function [Best_fitness,sFeat,Sf,Nf,cuve_f]  =dhole_v9(feat,label,N,T,alpha,HO)
 %% Define Parameters
 % Parameters
 lb    = 0;
