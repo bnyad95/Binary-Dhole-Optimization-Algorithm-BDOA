@@ -50,7 +50,6 @@ while(t<=max_Iter)
             end
         else
             %% Hunting stage
-            %D_prey=global_position; %Eq.(10)
             Q = 3*rand*fitness_f(i)/fobj(feat,label,(prey_local > thres),HO); %Eq.(10)
             if Q>2   % The food is too big
                  W_prey = round(exp(-1/Q).*prey_local); %round is added   %Eq.(11)
@@ -134,6 +133,7 @@ function y = p_obj(x)   %Eq.(4)
     D=rand;
     y = ((C1 / (1 + exp(-k * (PMN- mu))))^2)* D;
 end
+
 
 
 
