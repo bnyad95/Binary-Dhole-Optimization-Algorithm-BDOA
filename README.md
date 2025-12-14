@@ -3,3 +3,39 @@ This research introduces the Binary Dhole Optimization Algorithm (BDOA), a novel
 Keywords: metaheuristic, bell-shaped transfer functions, Dhole Optimization Algorithm (DOA), feature selection, binary optimization.
 
 <img width="1052" height="753" alt="image" src="https://github.com/user-attachments/assets/743fffe7-2d57-4004-985c-95a02181a9ed" />
+
+Algorithm 1: Pseudo-code BDOA
+Start BDOA
+	Input all optimization algorithm information.
+	Set the Dholes (N) and the total iterations (T) numbers.
+	Initialize Binary Dholes population.
+	Estimate fitness values and obtain the best solution.
+	t = 1
+	while t<T
+	    Define PMN through Eq. (3)
+	    Define a prey through Eq. (5)
+	    For i = 1: N
+	      Vocalization = rand
+	      If vocalization < 0.5
+	          If PMN <10
+	              Update position toward the prey through Eq. (6)
+	          Else
+	              Doles perform encircle stage through Eq. (8)
+	          End
+	       Else
+	          The hunting time ps and prey size S can be determined through Eq. (4) and Eq. (10)
+	          If S > 2
+	              Dholes injure the prey according to Eq. (11)
+	              Dholes kill the prey according to Eq. (12) 
+	          Else
+	             Dholes kill the prey according to Eq. (13)
+	          End
+	       End
+	       Squash solution through Eq. (14) 
+	       Update d(t + 1) from Eq. (15) 
+	      End for
+	      Update fitness and the current best candidate solution.
+	      t= t+1
+	End
+
+End DOA
